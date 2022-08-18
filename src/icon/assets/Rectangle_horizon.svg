@@ -1,0 +1,5 @@
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="81px" height="30px" 
+ preserveAspectRatio="xMidYMid meet">
+    <path id="upper" fill="#fff" stroke="black" stroke-width="3"  d="M0 0 L81 0 L81 30 L0 30 Z" />
+</svg>
