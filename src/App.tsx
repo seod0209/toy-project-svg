@@ -12,8 +12,8 @@ export default function App() {
 
             <FloorPlan url={Icon.FloorPlan}>
                 <View.UpperLine />
-                <MiddleLineLayout></MiddleLineLayout>
-                <BottomLineLayout></BottomLineLayout>
+                <View.MiddleLine />
+                <View.BottomLine />
             </FloorPlan>
 
             <FloorPlanImg src={Icon.FirstFloor} />
@@ -33,40 +33,6 @@ const FloorPlan = styled.div<{ url: string }>`
     /* svg:hover {
         filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(4) brightness(1);
     } */
-`;
-
-const MiddleLineLayout = styled.div`
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: fit-content;
-`;
-const BottomLineLayout = styled.div`
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: fit-content;
-`;
-
-const LineLayoutInner = styled.div`
-    position: relative;
-    display: flex;
-    align-items: center;
-`;
-
-interface SqaureStyleProps {
-    top: number;
-    left: number;
-}
-
-const Sqaure = styled.img<SqaureStyleProps>`
-    position: absolute;
-    top: ${(props) => `${props.top}px`};
-    left: ${(props) => `${props.left}px`};
-    width: 19px;
-    &:hover {
-        filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(4) brightness(1);
-    }
 `;
 
 const FloorPlanImg = styled.img`

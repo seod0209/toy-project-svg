@@ -1,5 +1,5 @@
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="90px" height="90px" 
  preserveAspectRatio="xMidYMid meet">
-<path  fill="#fff" stroke="black" stroke-width="3"  d="M0 0 L90 0 L90 90 L0 90 Z" />
+<path  fill="#fff" stroke="none" stroke-width="3"  d="M0 0 L90 0 L90 90 L0 90 Z" />
 </svg>
