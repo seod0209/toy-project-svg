@@ -17,8 +17,8 @@ export default BottomLine;
 
 const BottomLineLayout = styled.div`
     position: absolute;
-    top: 110px;
-    left: 0;
+    top: 60%;
+    left: 1px;
     width: fit-content;
 `;
 

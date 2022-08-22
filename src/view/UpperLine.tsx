@@ -8,56 +8,59 @@ const UpperLine: React.FC = () => {
         <UpperLineLayout>
             <LineLayoutInner>
                 <FirstGroup>
-                    <Sqaure src={Icon.CornerLeftDown} />
-                    <Rec src={Icon.RectangleVertical} />
-                    <RecLayout>
-                        <Rec src={Icon.RectangleHorizon} />
-                        <Rec src={Icon.SqaureBasic} />
-                    </RecLayout>
+                    <Rec id={"a-1-0"} src={Icon.CornerLeftDown} style={{ width: "80%" }} />
+                    <Rec id={"a-2-0"} src={Icon.RectangleVertical} />
+                    {/* <Layout>
+                        <Rec id={"a-3-1"} src={Icon.RectangleHorizon} />
+                        <Rec id={"a-3-0"} src={Icon.SqaureBasic} />
+                    </Layout> */}
+                    <Rec id={"a-3-0"} src={Icon.SqaureBasic} />
                 </FirstGroup>
                 <SecondGroup>
-                    <Rec src={Icon.RectangleVertical} />
-                    <Rec src={Icon.RectangleVertical} />
-                    <Rec src={Icon.RectangleVertical} />
-                    <Rec src={Icon.RectangleVertical} />
-                    <RecLayout>
-                        <Rec src={Icon.RectangleHorizon} />
-                        <Rec src={Icon.SqaureBasic} />
-                    </RecLayout>
-                    <Rec src={Icon.RectangleVertical} />
-                    <Rec src={Icon.RectangleVertical} />
-                    <Rec src={Icon.RectangleVertical} />
-                    <Rec src={Icon.RectangleVertical} />
-                    <Rec src={Icon.RectangleVertical} />
-                    <Rec src={Icon.RectangleVertical} />
-                    <Rec src={Icon.RectangleVertical} />
-                    <Rec src={Icon.RectangleVertical} />
-                    <Rec src={Icon.RectangleVertical} />
-                    <Rec src={Icon.RectangleVertical} />
-                    <Rec src={Icon.RectangleVertical} />
+                    <Rec id={"a-4-0"} src={Icon.RectangleVertical} />
+                    <Rec id={"a-5-0"} src={Icon.RectangleVertical} />
+                    <Rec id={"a-6-0"} src={Icon.RectangleVertical} />
+                    <Rec id={"a-7-0"} src={Icon.RectangleVertical} />
+                    {/* <Layout>
+                        <Rec id={"a-8-1"} src={Icon.RectangleHorizon} />
+                        <Rec id={"a-8-0"} src={Icon.SqaureBasic} />
+                    </Layout> */}
+                    <Rec id={"a-8-0"} src={Icon.SqaureBasic} />
+                    <Rec id={"a-9-0"} src={Icon.RectangleVertical} />
+                    <Rec id={"a-10-0"} src={Icon.RectangleVertical} />
+                    <Rec id={"a-11-0"} src={Icon.RectangleVertical} />
+                    <Rec id={"a-12-0"} src={Icon.RectangleVertical} />
+                    <Rec id={"a-13-0"} src={Icon.RectangleVertical} />
+                    <Rec id={"a-14-0"} src={Icon.RectangleVertical} />
+                    <Rec id={"a-15-0"} src={Icon.RectangleVertical} />
+                    <Rec id={"a-16-0"} src={Icon.RectangleVertical} />
+                    <Rec id={"a-17-0"} src={Icon.RectangleVertical} />
+                    <Rec id={"a-18-0"} src={Icon.RectangleVertical} />
+                    <Rec id={"a-19-0"} src={Icon.RectangleVertical} />
                 </SecondGroup>
                 <ThridGroup>
-                    <Rec src={Icon.RectangleVertical} />
-                    <RecLayout>
-                        <Rec src={Icon.RectangleHorizon} />
-                        <Rec src={Icon.SqaureBasic} />
-                    </RecLayout>
-                    <Rec src={Icon.RectangleVertical} />
-                    <Rec src={Icon.RectangleVertical} />
-                    <Rec src={Icon.RectangleVertical} />
-                    <Rec src={Icon.RectangleVertical} />
-                    <Rec src={Icon.RectangleVertical} />
-                    <Rec src={Icon.RectangleVertical} />
-                    <Rec src={Icon.RectangleVertical} />
-                    <Rec src={Icon.RectangleVertical} />
-                    <Rec src={Icon.RectangleVertical} />
-                    <Rec src={Icon.RectangleVertical} />
-                    <Rec src={Icon.RectangleVertical} />
+                    <ThirdRec id={"a-20-0"} src={Icon.RectangleVertical} />
+                    {/* <Layout>
+                        <ThirdRec id={"a-21-1"} src={Icon.RectangleHorizon} />
+                        <ThirdRec id={"a-21-0"} src={Icon.SqaureBasic} />
+                    </Layout> */}
+                    <ThirdRec id={"a-21-0"} src={Icon.SqaureBasic} />
+                    <ThirdRec id={"a-22-0"} src={Icon.RectangleVertical} />
+                    <ThirdRec id={"a-23-0"} src={Icon.RectangleVertical} />
+                    <ThirdRec id={"a-24-0"} src={Icon.RectangleVertical} />
+                    <ThirdRec id={"a-25-0"} src={Icon.RectangleVertical} />
+                    <ThirdRec id={"a-26-0"} src={Icon.RectangleVertical} />
+                    <ThirdRec id={"a-27-0"} src={Icon.RectangleVertical} />
+                    <ThirdRec id={"a-28-0"} src={Icon.RectangleVertical} />
+                    <ThirdRec id={"a-29-0"} src={Icon.RectangleVertical} />
+                    <ThirdRec id={"a-30-0"} src={Icon.RectangleVertical} />
+                    <ThirdRec id={"a-31-0"} src={Icon.RectangleVertical} />
+                    <ThirdRec id={"a-32-0"} src={Icon.RectangleVertical} />
                 </ThridGroup>
                 <ForthGroup>
-                    <Rec src={Icon.RectangleVertical} />
-                    <Rec src={Icon.RectangleVertical} />
-                    <Rec src={Icon.TrigangleUp} />
+                    <Rec id={"a-33-0"} src={Icon.RectangleVertical} />
+                    <Rec id={"a-34-0"} src={Icon.RectangleVertical} />
+                    <Rec id={"a-35-0"} src={Icon.TrigangleUp} />
                 </ForthGroup>
             </LineLayoutInner>
         </UpperLineLayout>
@@ -68,63 +71,61 @@ export default UpperLine;
 
 const UpperLineLayout = styled.div`
     position: absolute;
-    top: 9px;
-    left: 4px;
+    top: 3px;
+    left: 0;
     width: 100%;
 `;
 
 const LineLayoutInner = styled.div`
     position: relative;
     display: flex;
-    align-items: center;
     width: 100%;
 `;
 
 const SquaresLayout = styled.div`
     position: absolute;
     display: flex;
-    top: 0;
-    align-items: flex-start;
+    width: 2.4%;
 `;
 
 const FirstGroup = styled(SquaresLayout)`
-    left: 11px;
+    left: 1%;
+    align-items: flex-start;
 `;
 
 const SecondGroup = styled(SquaresLayout)`
-    left: 139px;
+    top: 3px;
+    left: 10.2%;
 `;
-
 const ThridGroup = styled(SquaresLayout)`
-    top: 2px;
-    right: 164px;
+    top: 3px;
+    left: 57.7%;
 `;
 const ForthGroup = styled(SquaresLayout)`
-    top: 2px;
-    right: 44px;
-`;
-
-const Sqaure = styled.img`
-    margin-right: 2px;
-    width: 23px;
-
-    &:hover {
-        filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(4) brightness(1);
-    }
-`;
-const RecLayout = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 30px;
+    left: 90%;
 `;
 
 const Rec = styled.img`
-    margin-right: 1.7px;
-    width: 32px;
-    opacity: 0;
+    margin: 0 1px;
+    width: 100%;
+    // opacity: 0;
     &:hover {
         filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(4) brightness(1);
-        opacity: 1;
+        // opacity: 1;
     }
 `;
+
+const ThirdRec = styled.img`
+    width: 93%;
+    margin-top: 0;
+
+    // opacity: 0;
+    &:hover {
+        filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(4) brightness(1);
+        // opacity: 1;
+    }
+`;
+
+// const Layout = styled.div`
+//     width: 15px;
+// `;

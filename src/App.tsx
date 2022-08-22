@@ -4,38 +4,48 @@ import * as View from "./view";
 import * as Icon from "./icon/assets";
 import styled from "styled-components";
 
-export default function App() {
+const App: React.FC = () => {
     return (
         <div className="App">
             <h1>청평화 쇼핑몰 1층 점포 배치도</h1>
             <h2>어디한번 그려보쟈</h2>
+            <FloorPlanLayout>
+                <FloorPlan src={Icon.FloorPlan} />
 
-            <FloorPlan url={Icon.FloorPlan}>
                 <View.UpperLine />
-                <View.MiddleLine />
-                <View.BottomLine />
-            </FloorPlan>
+                {/* <View.MiddleLine />
+                <View.BottomLine /> */}
+            </FloorPlanLayout>
 
             <FloorPlanImg src={Icon.FirstFloor} />
         </div>
     );
-}
+};
+export default App;
 
-const FloorPlan = styled.div<{ url: string }>`
+const FloorPlanLayout = styled.div`
     position: relative;
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+`;
+
+const FloorPlan = styled.img`
     display: flex;
     align-items: center;
     width: 100%;
-    height: 500px;
-    background-image: url(${(props) => props.url});
-    background-repeat: no-repeat;
-    background-size: contain;
-    /* svg:hover {
-        filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(4) brightness(1);
-    } */
+    height: auto;
+
+    @media (max-width: 786px) {
+        transform: rotate(270deg);
+    }
 `;
 
 const FloorPlanImg = styled.img`
+    display: table-row;
     width: 100%;
     height: auto;
+    @media (max-width: 786px) {
+        display: none;
+    }
 `;
