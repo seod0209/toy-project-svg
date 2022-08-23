@@ -1,5 +1,6 @@
 import React from "react";
 import * as Icon from "../icon/assets";
+
 //import { ReactComponent as CornerLeftDown } from "../icon/assets/Corner_left_down.svg";
 import styled from "styled-components";
 
@@ -11,10 +12,10 @@ const UpperLine: React.FC = () => {
                     <Rec id={"a-1-0"} src={Icon.CornerLeftDown} style={{ width: "80%" }} />
                     <Rec id={"a-2-0"} src={Icon.RectangleVertical} />
                     {/* <Layout>
-                        <Rec id={"a-3-1"} src={Icon.RectangleHorizon} />
-                        <Rec id={"a-3-0"} src={Icon.SqaureBasic} />
+                        <Rec id={"a-8-1"} src={Icon.RectangleHorizon} />
+                        <Rec id={"a-8-0"} src={Icon.SqaureBasic} />
                     </Layout> */}
-                    <Rec id={"a-3-0"} src={Icon.SqaureBasic} />
+                    <Rec id={"a-8-0"} src={Icon.SqaureBasic} />
                 </FirstGroup>
                 <SecondGroup>
                     <Rec id={"a-4-0"} src={Icon.RectangleVertical} />
@@ -84,8 +85,10 @@ const LineLayoutInner = styled.div`
 
 const SquaresLayout = styled.div`
     position: absolute;
+    top: 0.3em;
     display: flex;
     width: 2.4%;
+    height: fit-content;
 `;
 
 const FirstGroup = styled(SquaresLayout)`
@@ -94,11 +97,9 @@ const FirstGroup = styled(SquaresLayout)`
 `;
 
 const SecondGroup = styled(SquaresLayout)`
-    top: 3px;
     left: 10.2%;
 `;
 const ThridGroup = styled(SquaresLayout)`
-    top: 3px;
     left: 57.7%;
 `;
 const ForthGroup = styled(SquaresLayout)`
@@ -106,26 +107,23 @@ const ForthGroup = styled(SquaresLayout)`
 `;
 
 const Rec = styled.img`
-    margin: 0 1px;
-    width: 100%;
-    // opacity: 0;
+    margin-left: 0.08em;
+    width: 95%;
+    /* opacity: 0; */
     &:hover {
         filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(4) brightness(1);
-        // opacity: 1;
+        opacity: 1;
     }
 `;
 
 const ThirdRec = styled.img`
-    width: 93%;
-    margin-top: 0;
+    width: 94%;
+    margin-top: 0.2em;
+    margin-left: 0.05em;
 
-    // opacity: 0;
+    /* opacity: 0; */
     &:hover {
         filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(4) brightness(1);
-        // opacity: 1;
+        opacity: 1;
     }
 `;
-
-// const Layout = styled.div`
-//     width: 15px;
-// `;

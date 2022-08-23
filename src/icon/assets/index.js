@@ -14,6 +14,8 @@ import CornerRightUp from "./Corner_right_up.svg";
 import CornerRight from "./Corner_right.svg";
 import CornerRightSmall from "./Corner_right_small.svg";
 import FloorPlanImg from "./image.png";
+import MobileFloor from "./mobile_floor.svg";
+import RecVerticalLarge from "./Rec_V_L.svg";
 
 export {
     FirstFloor,
@@ -32,4 +34,6 @@ export {
     CornerRight,
     CornerRightSmall,
     FloorPlanImg,
+    MobileFloor,
+    RecVerticalLarge,
 };
