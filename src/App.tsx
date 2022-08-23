@@ -14,7 +14,8 @@ const App: React.FC = () => {
             <FloorPlanLayout>
                 <FloorPlan src={Icon.FloorPlan} />
                 <View.UpperLine />
-                {/* <View.MiddleLine /> */}
+                <View.MiddleLineUpper />
+                <View.MiddleLineBottom />
                 <View.BottomLine />
             </FloorPlanLayout>
 

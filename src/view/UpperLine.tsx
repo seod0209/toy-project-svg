@@ -9,7 +9,7 @@ const UpperLine: React.FC = () => {
         <UpperLineLayout>
             <LineLayoutInner>
                 <FirstGroup>
-                    <Rec id={"a-1-0"} src={Icon.CornerLeftDown} style={{ width: "80%" }} />
+                    <Rec id={"a-1-0"} src={Icon.CornerLeftDown} style={{ width: "70%" }} />
                     <Rec id={"a-2-0"} src={Icon.RectangleVertical} />
                     {/* <Layout>
                         <Rec id={"a-8-1"} src={Icon.RectangleHorizon} />
@@ -85,10 +85,9 @@ const LineLayoutInner = styled.div`
 
 const SquaresLayout = styled.div`
     position: absolute;
-    top: 0.3em;
+    top: 0.2em;
     display: flex;
     width: 2.4%;
-    height: fit-content;
 `;
 
 const FirstGroup = styled(SquaresLayout)`

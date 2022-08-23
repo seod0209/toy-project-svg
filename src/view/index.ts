@@ -1,6 +1,7 @@
 import UpperLine from "./UpperLine";
-import MiddleLine from "./MiddleLine";
+import MiddleLineUpper from "./MiddleLineUpper";
+import MiddleLineBottom from "./MiddleLineBottom";
 import BottomLine from "./BottomLine";
 import BoxView from "./BoxView";
 
-export { UpperLine, MiddleLine, BottomLine, BoxView };
+export { UpperLine, MiddleLineUpper, MiddleLineBottom, BottomLine, BoxView };

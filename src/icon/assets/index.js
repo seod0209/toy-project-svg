@@ -16,6 +16,9 @@ import CornerRightSmall from "./Corner_right_small.svg";
 import FloorPlanImg from "./image.png";
 import MobileFloor from "./mobile_floor.svg";
 import RecVerticalLarge from "./Rec_V_L.svg";
+import SqaureM from "./Sqaure_M.svg";
+import RecHM from "./Rec_H_M.svg";
+import CornerLDM from "./Corner_L_D_M.svg";
 
 export {
     FirstFloor,
@@ -36,4 +39,7 @@ export {
     FloorPlanImg,
     MobileFloor,
     RecVerticalLarge,
+    SqaureM,
+    RecHM,
+    CornerLDM,
 };
