@@ -1,0 +1,1 @@
+export type TaskType = "PICKUP" | "RETURN" | "EXCHANGE" | "UNKNOWN" | "SAMPLE_REQUEST" | "SAMPLE_RETURN" | "PREPAID";

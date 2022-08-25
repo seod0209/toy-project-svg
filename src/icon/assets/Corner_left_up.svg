@@ -1,5 +1,5 @@
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
 viewBox="0 0 6 15"
  preserveAspectRatio="xMidYMid meet">
-      <polygon class="corner_left"  style="fill:#fff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;" points="0 0 6  6 6  16.9 0 16.9 " />
+      <polygon class="corner_left"  style="fill:#fff;stroke:none" points="0 0 6  6 6  16.9 0 16.9 " />
 </svg>

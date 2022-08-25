@@ -2,7 +2,7 @@
 viewBox="0 0 10 13"
  preserveAspectRatio="xMidYMid meet">
  <g>
-<polygon style="fill:#fff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;" points="0 0 10 0 10 4 0 4" />
+<polygon style="fill:#fff;stroke:none" points="0 0 10 0 10 4 0 4" />
 <polygon style="fill:#fff;stroke:#000000;stroke-width:1px;" points="0 4 10 4 10 13 0 13" />
 </g>
 </svg>

@@ -19,6 +19,7 @@ import RecVerticalLarge from "./Rec_V_L.svg";
 import SqaureM from "./Sqaure_M.svg";
 import RecHM from "./Rec_H_M.svg";
 import CornerLDM from "./Corner_L_D_M.svg";
+import CornerR from "./Corner_R.svg";
 
 export {
     FirstFloor,
@@ -42,4 +43,5 @@ export {
     SqaureM,
     RecHM,
     CornerLDM,
+    CornerR,
 };
